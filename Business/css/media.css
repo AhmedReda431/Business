@@ -1,0 +1,174 @@
+@media (max-width:767px){
+    img{
+        width: 100%;
+    }
+    .row{
+        display: block;
+    }
+    header .header-holder .links ul{
+        font-size: 14px;
+    }
+    header .header-holder .links ul li{
+        margin-right: 13px;
+    }
+    header .header-holder .links {
+        padding: 20px 0;
+    }
+    .hero .hero-holder button {
+        padding: 15px;
+        font-size: 16px;
+    }
+    .first-sec img{
+        width: 30%;
+    }
+    .work .work-holder .row .col {
+        padding: 52px 0px 5px;
+        margin: 0;
+        line-height: 1;
+        height: auto;  
+    }
+    .work .work-holder .row p{
+        margin-top: 0;
+    }
+    header .header-holder .row .consol {
+        margin: auto;
+    }
+    .hero .hero-holder{
+        background-color: rgba(64, 66, 104, 0.52);
+    }
+    .sections .sections-holder .row .first-sec{
+        margin-top: 40px;
+    }
+    .approch .approch-holder .step1 p{
+        padding-bottom: 25px !important;
+    }
+    .approch .approch-holder .step1 .col:first-of-type img, .approch .approch-holder .step3 .col:first-of-type img{
+        margin-left: 0;
+    }
+    .approch .approch-holder .step1 .col:first-of-type .position-num, .approch .approch-holder .step3 .col:first-of-type .position-num{
+        right: 1%;
+    }
+
+    .approch .approch-holder .step2 .col:last-of-type img, .approch .approch-holder .step4 .col:last-of-type img{
+        margin-right: 0;
+    }
+
+    .approch .approch-holder .step2 .col .position-num, .approch .approch-holder .step4 .col .position-num{
+        left: 1%;
+    }
+    .approch .approch-holder .step1 .col:last-of-type,.approch .approch-holder .step3 .col:last-of-type{
+        padding-left: 43px;
+    }
+    .approch .approch-holder .step2 .col:first-of-type,.approch .approch-holder .step4 .col:first-of-type{
+        padding-right: 43px;
+    }
+    .facebook .facebook-holder h1{
+        font-size: 23px;
+    }
+    .facebook .facebook-holder h3{
+        font-size: 20px;
+        margin-top: 20px;
+    }
+
+    .facebook .facebook-holder .myform{
+        width: 90%;
+    }
+    .facebook .facebook-holder .angle{
+        right: 45%;
+    }
+    .facebook .facebook-holder .myform form{
+        width: 100%;
+    }
+
+    .touch .touch-holder .social{
+        width: 100%;
+    }
+    .touch .touch-holder ul{
+        margin-left: 19%;
+    }
+
+    .touch .touch-holder form input{
+        width: 100%;
+    }
+    .touch .touch-holder ul{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 0;
+    }
+    .touch .touch-holder ul li{
+        float: none;
+        
+
+    }
+    .touch .touch-holder ul li:last-of-type{
+        margin-right: 0;
+    }
+    .touch .touch-holder ul li i {
+        font-size: 20px !important;
+    }
+    .footer-holder p{
+        font-size: 16px;
+    }
+}
+
+@media (min-width:767px) and (max-width: 992px){
+    .touch .touch-holder .social{
+        width: 43%;
+    }
+    .touch .touch-holder ul{
+        margin-left: 2%;
+    }
+    .touch .touch-holder form input{
+        width: 80%;
+    }
+    .facebook .facebook-holder .angle{
+        right: 45%;
+    }
+    .approch .approch-holder .step1 .col:first-of-type .position-num, 
+    .approch .approch-holder .step3 .col:first-of-type .position-num{
+        right: 8%;
+    }
+    .approch .approch-holder .step2 .col .position-num, .approch .approch-holder .step4 .col .position-num{
+        left: 8%;
+    }
+    .approch .approch-holder .step2 .col:last-of-type img, .approch .approch-holder .step4 .col:last-of-type img{
+        margin-right: -8%;
+    }
+    .work-holder .col h3{
+        font-size: 20px;
+    }
+    .work-holder .col h4{
+        font-size: 15px;
+    }
+    .work .work-holder .row .col{
+        height: 250px;
+    }
+    .facebook .facebook-holder .myform{
+        width: 90%;
+    }
+}
+
+@media (min-width: 992px) and (max-width:1200px){
+    header .header-holder .links{
+        padding-left: 60px;
+    }
+    .touch .touch-holder form input{
+        width: 70%;
+    }
+
+    .approch .approch-holder .step1 .col:first-of-type .position-num, 
+    .approch .approch-holder .step3 .col:first-of-type .position-num{
+        right: 16%;
+    }
+    .approch .approch-holder .step2 .col .position-num, .approch .approch-holder .step4 .col .position-num{
+        left: 15%;
+    }
+    .touch .touch-holder .social{
+        width: 39%;
+    }
+    .approch .approch-holder .step2 .col:last-of-type img, .approch .approch-holder .step4 .col:last-of-type img{
+        margin-right: -13%;
+    }
+    
+}

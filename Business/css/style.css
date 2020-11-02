@@ -1,0 +1,271 @@
+
+.about,.approch,.work,.facebook,.touch {
+    padding:5% 0;
+}
+
+.top-header{
+    background-color: #f0f2f4;
+}
+.top-header .top-header-holder .information{
+    float: right;
+    padding: 10px 0 0 0 ;
+}
+.top-header .top-header-holder .information >p{
+    display: inline-block;
+    margin-right: 15px;
+}
+.top-header .top-header-holder .information .fa{
+    color: #1287bf;
+}
+/*******************************************************************/
+header{
+    padding: 20px 0;
+}
+header .header-holder .links{
+    padding-left: 10%;
+    font-size: 22px;
+}
+header .header-holder .links ul li {
+    margin-right: 20px;
+}
+header .header-holder .links ul li:first-of-type {
+    color: red;
+}
+/*******************************************************************/
+.hero{
+    
+    background:url("photos/hero-section.png") no-repeat fixed 50% 97%;
+    background-size:cover;
+}
+.hero .hero-holder {
+    background-color: rgba(64, 66, 104, 0.30);
+    padding: 10% 0;
+    color: #fff;
+}
+.hero .hero-holder h1{
+    margin-bottom: 60px;
+}
+.hero .hero-holder button {
+    padding: 15px 52px;
+    font-size: 23px;
+}
+/*******************************************************************/
+.about .about-holder .myDivider,.approch .approch-holder .myDivider,.work .work-holder .myDivider{
+    margin: 20px auto;
+    height: 5px;
+    width: 45px;
+    background-color: #424242;
+}
+.about .about-holder .sections{
+    margin-top: 45px;
+}
+/*******************************************************************/
+.approch{
+    background-color: #f3f3f3;
+}
+.approch .approch-holder .row {
+    background-color: #fff;
+}
+.approch .approch-holder .step1 .col:last-of-type,.approch .approch-holder .step3 .col:last-of-type,
+.approch .approch-holder .step2 .col:first-of-type,
+.approch .approch-holder .step4 .col:first-of-type{
+    
+    padding-top: 4%;
+}
+
+.approch .approch-holder .step1,.approch .approch-holder .step3{
+    box-shadow: 0px 0px 15px 5px #f0f2f4;
+    margin-top: 5%;
+}
+.approch .approch-holder .step1 .col:first-of-type img,.approch .approch-holder .step3 .col:first-of-type img{
+    position: relative;
+    background-size: cover;
+    margin-left: -36%;
+}
+.approch .approch-holder .step1 .col:first-of-type .position-num,.approch .approch-holder .step3 .col:first-of-type .position-num{
+    position: absolute;
+    background-color: #de2b24;
+    color: #fff;
+    padding: 15px 25px;
+    border-radius: 5px;
+    border: 2px solid #fff;
+    top: 33%;
+    right: 24%;
+}
+
+.approch .approch-holder .step2,.approch .approch-holder .step4{
+    box-shadow: 0px 0px 15px 5px #f0f2f4;
+    margin-top: 5%;
+}
+.approch .approch-holder .step2 .col:last-of-type img,.approch .approch-holder .step4 .col:last-of-type img{
+    position: relative;
+    background-size: cover;
+    margin-right: -34%;
+}
+.approch .approch-holder .step2 .col  .position-num,.approch .approch-holder .step4 .col  .position-num{
+    position: absolute;
+    background-color: #de2b24;
+    color: #fff;
+    padding: 15px 25px;
+    border-radius: 5px;
+    border: 2px solid #fff;
+    top: 33%;
+    left: 23%;
+}
+/*******************************************************************/
+.work{
+    background-color: #de2b24;
+    color: #fff;
+}
+.work .work-holder .myDivider{
+    background-color: #fff;
+    margin-bottom: 45px;
+}
+.work .work-holder .row .col{
+    padding: 0;
+    margin: 0;
+    height: 300px;
+}
+.work .work-holder .row .col img{
+    width: 100%;
+    height: 100%;
+}
+.work .work-holder .row {
+    background-color: #f35e59;
+}
+
+.work .work-holder .row p{
+    margin-top: 80px;
+}
+/*******************************************************************/
+.facebook{
+    background-color: #1287bf;
+    color: #fff;
+    position: relative;
+}
+
+.facebook .facebook-holder .button{
+    border: 2px solid #fff;
+    width: 65px;
+    height: 65px;
+    line-height: 75px;
+    border-radius: 50%;
+    margin: 30px auto;
+    cursor: pointer;
+}
+
+.facebook .facebook-holder .myform{
+    width: 60%;
+    margin: auto;
+    background-color: #fff;
+    padding: 45px;
+    margin-top: 60px;
+    position: relative;
+}
+.facebook .facebook-holder .myform input{
+    margin-bottom: 5px;
+    padding:22px 10px
+}
+
+.facebook .facebook-holder p{
+    color:#afafaf
+}
+
+.facebook .facebook-holder .angle{
+    width: 41px;
+    height: 41px;
+    position: absolute;
+    background-color: #fff;
+    top: -18px;
+    right: 47%;
+    margin: auto;
+    transform: rotate(45deg);
+}
+
+.facebook .facebook-holder .exite{
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    background-color: #de2b24;
+    top: -20px;
+    right: -20px;
+    border-radius: 50%;
+    line-height: 40px;
+}
+.facebook .facebook-holder .myform form{
+    padding-top: 25px;
+    width: 75%;
+    margin: auto;
+}
+.facebook .facebook-holder .myform form input:first-of-type{
+    border: 1px solid #1287bf;
+}
+
+.facebook .facebook-holder .myform form button{
+    padding: 10px 30px;
+    background-color: #de2b24;
+}
+/*******************************************************************/
+.touch{
+    background-color: #2a2a2a;
+    color: #fff;
+
+}
+
+.touch .touch-holder ul {
+    margin-left: 11%;
+}
+
+.touch .touch-holder ul li {
+    float: left;
+    margin-right: 15px ;
+}
+
+.touch .touch-holder ul li {
+    border: 2px solid #515151;
+    padding: 10px;
+}
+.touch .touch-holder ul li:first-of-type{
+    border: 2px solid #de2b24;
+    padding: 10px 18px;
+}
+.touch .touch-holder ul li:nth-of-type(3){
+    padding: 10px 8px;
+}
+.touch .touch-holder ul li:last-of-type{
+    padding: 10px 13px;
+}
+.touch .touch-holder .social{
+    margin: auto;
+    width: 32%;
+}
+
+.touch .touch-holder form input{
+    margin: auto;
+    width: 55%;
+    padding: 30px 20px;
+    border-radius: 0;
+    background-color: #515151;
+    color: #fff;
+    border: none;
+}
+
+.touch .touch-holder form button{
+    background-color: transparent;
+    color: #fff;
+    padding: 10px 40px;
+    border: 2px solid #515151
+}
+
+
+/**************************************************************/
+footer{
+    background-color:#515151 ;
+    color: #fff;
+    padding: 20px 0 1px;
+    font-size: 22px;
+}
+footer p span{
+    color: #1287bf;
+}
+
